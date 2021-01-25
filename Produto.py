@@ -1,4 +1,4 @@
-#Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a decisão é sempre pelo mais barato. 
+'''Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a decisão é sempre pelo mais barato. '''
 
 produto1 = float(input("Digite o preço em R$ do primeiro produto:", ))
 produto2 = float(input("Digite o preço em R$ do segundo produto:", ))
