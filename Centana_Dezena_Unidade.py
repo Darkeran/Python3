@@ -9,10 +9,12 @@ if QtdNumero == 3:
     Dezena = StrNumero[1]
     Unidade = StrNumero[2]
     print("{} centenas, {} dezenas e {} unidades".format(Centena, Dezena, Unidade))
+    
 elif QtdNumero == 2:
     Dezena = StrNumero[0]
     Unidade = StrNumero[1]
     print("{} dezenas e {} unidades".format(Dezena, Unidade))
+    
 elif QtdNumero == 1:
     Unidade = StrNumero[0]
     print("{} unidades".format(Unidade))
