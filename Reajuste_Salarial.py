@@ -1,4 +1,4 @@
-As Organizações Tabajara resolveram dar um aumento de salário aos seus colaboradores e lhe contraram para desenvolver o programa que calculará os reajustes.
+''' As Organizações Tabajara resolveram dar um aumento de salário aos seus colaboradores e lhe contraram para desenvolver o programa que calculará os reajustes.
 
     Faça um programa que recebe o salário de um colaborador e o reajuste segundo o seguinte critério, baseado no salário atual:
     - salários até R$ 280,00 (incluindo) : aumento de 20%
@@ -8,8 +8,8 @@ As Organizações Tabajara resolveram dar um aumento de salário aos seus colabo
     - salário antes do reajuste;
     - percentual de aumento aplicado;
     - valor do aumento;
-    - novo salário, após o aumento. 
-    
+    - novo salário, após o aumento.                                                                                                                         '''
+                                                                                                                                                       
 salario_inicial = float(input("Qual é o seu salário em R$: ",))
 porcentagem = 0
 
