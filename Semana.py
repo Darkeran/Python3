@@ -1,4 +1,5 @@
-'''Faça um Programa que leia um número e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.), se digitar outro valor deve aparecer valor inválido.'''
+'''Faça um Programa que leia um número e exiba o dia correspondente da semana. 
+(1-Domingo, 2- Segunda, etc.), se digitar outro valor deve aparecer valor inválido.'''
 
 
 semana = ["Número invalido","Domingo","Segunda-Feira","Terca-Feira","Quarta-Feira","Quinta-Feira","Sexta-Feira","Sabádo"]
