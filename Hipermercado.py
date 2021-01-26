@@ -18,48 +18,33 @@ if Tipo_Carne == "file duplo":
   Qtd_Carne = float(input("Quantos Kg ?:",))
   if Qtd_Carne > 5:
     Preco_Carne = Qtd_Carne * 5.80
-    Tipo_Pagamento = str(input("Pagamento cartão tabajara ou dinheiro ?:" )).lower()
-    if Tipo_Pagamento == "cartão" or Tipo_Pagamento == "cartao":
-      Desconto = (Preco_Carne * 5) / 100
-      Preco_Carne_Final = Preco_Carne - Desconto
   elif Qtd_Carne > 0 and Qtd_Carne < 5:
     Preco_Carne = Qtd_Carne * 4.90
-    Tipo_Pagamento = str(input("Pagamento cartão tabajara ou dinheiro ?:" )).lower()
-    if Tipo_Pagamento == "cartão" or Tipo_Pagamento == "cartao":
-      Desconto = (Preco_Carne * 5) / 100
-      Preco_Carne_Final = Preco_Carne - Desconto
+  Tipo_Pagamento = str(input("Cartão tabajara ou dinheiro:" ))
 
 elif Tipo_Carne == "alcatra":
   Qtd_Carne = float(input("Quantos Kg ?:",))
   if Qtd_Carne > 5:
     Preco_Carne = Qtd_Carne * 6.80
-    Tipo_Pagamento = str(input("Pagamento cartão tabajara ou dinheiro ?:" )).lower()
-    if Tipo_Pagamento == "cartão" or Tipo_Pagamento == "cartao":
-     Desconto = (Preco_Carne * 5) / 100
-     Preco_Carne_Final = Preco_Carne - Desconto  
   elif Qtd_Carne > 0 and Qtd_Carne < 5:
     Preco_Carne = Qtd_Carne * 5.90
-    Tipo_Pagamento = str(input("Pagamento cartão tabajara ou dinheiro ?:" )).lower()
-    if Tipo_Pagamento == "cartão" or Tipo_Pagamento == "cartao":
-      Desconto = (Preco_Carne * 5) / 100
-      Preco_Carne_Final = Preco_Carne - Desconto
+  Tipo_Pagamento = str(input("Cartão tabajara ou dinheiro:" ))
 
 elif Tipo_Carne == "picanha":
   Qtd_Carne = float(input("Quantos Kg ?:",))
   if Qtd_Carne > 5:
     Preco_Carne = Qtd_Carne * 7.80
-    Tipo_Pagamento = str(input("Pagamento cartão tabajara ou dinheiro ?:" )).lower()
-    if Tipo_Pagamento == "cartão" or Tipo_Pagamento == "cartao":
-      Desconto = (Preco_Carne * 5) / 100
-      Preco_Carne_Final = Preco_Carne - Desconto
   elif Qtd_Carne > 0 and Qtd_Carne < 5:
     Preco_Carne = Qtd_Carne * 6.90
-    Tipo_Pagamento = str(input("Pagamento cartão tabajara ou dinheiro ?:" )).lower()
-    if Tipo_Pagamento == "cartão" or Tipo_Pagamento == "cartao":
-     Desconto = (Preco_Carne * 5) / 100
-     Preco_Carne_Final = Preco_Carne - Desconto
+  Tipo_Pagamento = str(input("Cartão tabajara ou dinheiro:" ).lower())
 
-
+if Tipo_Pagamento == "cartao" or Tipo_Pagamento == "cartão":
+  Desconto = (Preco_Carne * 5) / 100
+  Preco_Carne_Final = Preco_Carne - Desconto
+else:
+  Preco_Carne_Final = Preco_Carne
+  Desconto = 0
+ 
 print(Tipo_Carne)
 print(Qtd_Carne,"Kg")
 print("R$%.2f" %Preco_Carne)
