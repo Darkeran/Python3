@@ -1,5 +1,5 @@
-'''Altere o programa anterior permitindo ao usuário informar as populações e as taxas de crescimento iniciais. 
-   Valide a entrada e permita repetir a operação. '''
+# Altere o programa anterior permitindo ao usuário informar as populações e as taxas de crescimento iniciais. 
+# Valide a entrada e permita repetir a operação. 
    
 População_A = int(input("População A: ",))
 Taxa_Cres_A = float(input("Taxa de Crescimento da população A: ",))
