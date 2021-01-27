@@ -1,9 +1,8 @@
 # Faça um Programa que peça 2 números inteiros e um número real. Calcule e mostre:
-#
-#    o produto do dobro do primeiro com metade do segundo .
-#    a soma do triplo do primeiro com o terceiro.
-#    o terceiro elevado ao cubo.                                              
-    
+# o produto do dobro do primeiro com metade do segundo .
+# a soma do triplo do primeiro com o terceiro.
+# o terceiro elevado ao cubo.                                              
+  
     
 numero_inteiro_1 = int ( input ( "Digite um número inteiro: "))
 numero_inteiro_2 = int ( input ( "Digite um segundo número inteiro: "))
