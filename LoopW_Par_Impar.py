@@ -1,4 +1,4 @@
-''' Faça um programa que peça 10 números inteiros, calcule e mostre a quantidade de números pares e a quantidade de números impares. '''
+# Faça um programa que peça 10 números inteiros, calcule e mostre a quantidade de números pares e a quantidade de números impares.
 
 Lista_Impar = []
 Lista_Par = []
