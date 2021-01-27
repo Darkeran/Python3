@@ -1,4 +1,4 @@
-''' Faça um Programa que peça as 4 notas bimestrais e mostre a média. '''
+# Faça um Programa que peça as 4 notas bimestrais e mostre a média.
 
 nota1 = float (input("insira a nota do primeiro bimestre:" ))
 nota2 = float (input("insira a nota do segundo bimestre:" ))
