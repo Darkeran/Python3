@@ -1,4 +1,4 @@
-''' Faça um Programa que converta metros para centímetros. '''
+# Faça um Programa que converta metros para centímetros.
 
 metros = float(input("Insira quantos metros voce quer converter para centimetros:", ))
 
